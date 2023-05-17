@@ -1,0 +1,40 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 1140px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.image {
+  border-radius: 18px;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #1e293b;
+  margin-top: 24px;
+}
+
+.des {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
